@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree',sans-serif;
+}
+
+button{
+   background-color: hsl(47, 88%, 63%) ;
+   font-weight: bold;
+   border-radius: 3px;
+}
+
+.container{
+
+    background-color: aliceblue;
+    width: 90%;
+    padding: 20px;
+    border-radius:12px;
+    box-shadow: 5px 5px 0px hsl(0, 0%, 7%);
+    
+    text-align: left;
+    max-width: 320px;
+}
+
+.date{
+    font-size:0.75rem;
+    color:  hsl(0, 0%, 7%) ;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: hsl(0, 0%, 7%);
+}
+.definition {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 42%);
+    
+    margin-left: 5px;
+}
+.author-image{
+width: 32px;
+height: 32px;
+border-radius:50%;
+}
+.author{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    align-items: center;
+    margin-top: auto;
+    gap: 12px;
+}
+.author p {
+    font-size: 10px;
+   font-weight: 800;
+    
+    color: hsl(0, 0%, 7%);
+}
+@media (max-width : 600px) {
+
+    
+    .container{
+        padding: 16px;
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+
+    button{
+        font-size: 0.7rem;
+        padding: 4px 10px;
+    }
+    .author{
+        gap:8px
+    }
+}
+
+
+
+
