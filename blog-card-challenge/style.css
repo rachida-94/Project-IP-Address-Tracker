@@ -1,6 +1,9 @@
 body{
     background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree',sans-serif;
 }
+
+
  .card-img-bottom {
       max-height: 100%;
       width: 50%;
@@ -12,15 +15,10 @@ border-radius:50%;
     }
 
     .card{
+        max-width: 350px;
+        border-radius: 15px;
          box-shadow: 5px 5px 0px hsl(0, 0%, 7%);
     }
     
 
 
-
-.author p {
-    font-size: 10px;
-   font-weight: 800;
-    
-    color: hsl(0, 0%, 7%);
-}
