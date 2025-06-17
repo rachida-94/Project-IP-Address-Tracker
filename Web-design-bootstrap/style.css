@@ -20,11 +20,11 @@ color: aliceblue;
 
 .card {
     
-    border: 5px;
-    border-radius: 10px;
+    
+    border-radius: 5px;
     height: 100%;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0,1);
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,1,0,1);
     
 }
 .card-body {
