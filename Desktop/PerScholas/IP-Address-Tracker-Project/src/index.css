@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "leaflet/dist/leaflet.css";
+
+@import "tailwindcss";
+
+body{
+
+  margin :0 ;
+  font-family:"Rubik",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+}
